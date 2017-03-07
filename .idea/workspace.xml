@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7676f300-6b9c-4c48-89b9-3335b6cd38e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Recursive.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructure_1/BinarySearch.class" afterPath="$PROJECT_DIR$/out/production/DataStructure_1/BinarySearch.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructure_1/LenearSearch.class" afterPath="$PROJECT_DIR$/out/production/DataStructure_1/LenearSearch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructure_1/Recursive.class" afterPath="$PROJECT_DIR$/out/production/DataStructure_1/Recursive.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
@@ -13,6 +13,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure_1.iml" afterPath="$PROJECT_DIR$/DataStructure_1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BinarySearch.java" afterPath="$PROJECT_DIR$/src/BinarySearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LenearSearch.java" afterPath="$PROJECT_DIR$/src/LenearSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Recursive.java" afterPath="$PROJECT_DIR$/src/Recursive.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +42,8 @@
       <file leaf-file-name="Recursive.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Recursive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+            <state relative-caret-position="19">
+              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -603,12 +604,12 @@
       <workItem from="1488763500554" duration="2358000" />
       <workItem from="1488766165433" duration="3848000" />
       <workItem from="1488777341377" duration="1093000" />
-      <workItem from="1488842343336" duration="5993000" />
+      <workItem from="1488842343336" duration="6114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13292000" />
+    <option name="totallyTimeSpent" value="13413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -623,7 +624,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -726,8 +727,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        <state relative-caret-position="19">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding />
         </state>
       </provider>

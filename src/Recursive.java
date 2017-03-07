@@ -8,9 +8,7 @@ public class Recursive {
     //하노이의 타워 메서드 호출 횟수 계산 필드
     public static int i=0;
 
-    //팩토리얼
-
-
+    //팩토리얼해ㅑㅅ
     public static int factorial(int n) {
 
         if (n == 0) {
