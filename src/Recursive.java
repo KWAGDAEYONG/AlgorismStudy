@@ -8,7 +8,7 @@ public class Recursive {
     //하노이의 타워 메서드 호출 횟수 계산 필드
     public static int i=0;
 
-    //팩토리얼해ㅑㅅ
+    //팩토리얼
     public static int factorial(int n) {
 
         if (n == 0) {
@@ -83,6 +83,6 @@ public class Recursive {
         System.out.println();
         System.out.println("하노이의 타워");
         System.out.println("4개를 A에서 C로 이동");
-        System.out.println(hanoiTower(3,'A','B','C')+"번 옮깁니다.");
+        System.out.println(hanoiTower(4,'A','B','C')+"번 옮깁니다.");
     }
 }
