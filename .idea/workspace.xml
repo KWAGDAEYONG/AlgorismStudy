@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7676f300-6b9c-4c48-89b9-3335b6cd38e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/List1.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructure_1/BinarySearch.class" afterPath="$PROJECT_DIR$/out/production/DataStructure_1/BinarySearch.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructure_1/LenearSearch.class" afterPath="$PROJECT_DIR$/out/production/DataStructure_1/LenearSearch.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructure_1/Recursive.class" afterPath="$PROJECT_DIR$/out/production/DataStructure_1/Recursive.class" />
@@ -15,6 +14,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BinarySearch.java" afterPath="$PROJECT_DIR$/src/BinarySearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LenearSearch.java" afterPath="$PROJECT_DIR$/src/LenearSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/List1.java" afterPath="$PROJECT_DIR$/src/List1.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Recursive.java" afterPath="$PROJECT_DIR$/src/Recursive.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="List1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/List1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+            <state relative-caret-position="380">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <element signature="e#1048#1049#0" expanded="true" />
                 <element signature="e#1086#1087#0" expanded="true" />
@@ -66,12 +66,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="95">
-                <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -638,12 +638,12 @@
       <workItem from="1488777341377" duration="1093000" />
       <workItem from="1488842343336" duration="7736000" />
       <workItem from="1488889447989" duration="645000" />
-      <workItem from="1488927635422" duration="4344000" />
+      <workItem from="1488927635422" duration="5625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20024000" />
+    <option name="totallyTimeSpent" value="21305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -837,27 +837,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/List1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        <state relative-caret-position="380">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="e#1048#1049#0" expanded="true" />
             <element signature="e#1086#1087#0" expanded="true" />
             <element signature="e#1110#1111#0" expanded="true" />
             <element signature="e#1137#1138#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

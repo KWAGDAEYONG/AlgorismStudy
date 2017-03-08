@@ -4,4 +4,4 @@
 
 2.recursive
 
-3. arrayList
+3.arrayList
