@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7676f300-6b9c-4c48-89b9-3335b6cd38e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DoublyLinkedList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructure_1/BinarySearch.class" afterPath="$PROJECT_DIR$/out/production/DataStructure_1/BinarySearch.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructure_1/LenearSearch.class" afterPath="$PROJECT_DIR$/out/production/DataStructure_1/LenearSearch.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructure_1/Recursive.class" afterPath="$PROJECT_DIR$/out/production/DataStructure_1/Recursive.class" />
@@ -15,6 +14,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BinarySearch.java" afterPath="$PROJECT_DIR$/src/BinarySearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CircularLinkedList.java" afterPath="$PROJECT_DIR$/src/CircularLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DoublyLinkedList.java" afterPath="$PROJECT_DIR$/src/DoublyLinkedList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LenearSearch.java" afterPath="$PROJECT_DIR$/src/LenearSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LinkedList.java" afterPath="$PROJECT_DIR$/src/LinkedList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/List1.java" afterPath="$PROJECT_DIR$/src/List1.java" />
@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+            <state relative-caret-position="399">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,12 +94,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="133">
-                <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <first_editor relative-caret-position="152">
+                <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -141,10 +141,10 @@
         <option value="$PROJECT_DIR$/src/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/Recursive.java" />
         <option value="$PROJECT_DIR$/src/List1.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/CircularLinkedList.java" />
         <option value="$PROJECT_DIR$/src/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -675,12 +675,12 @@
       <workItem from="1489014140325" duration="6861000" />
       <workItem from="1489100241821" duration="3541000" />
       <workItem from="1489104435890" duration="800000" />
-      <workItem from="1489358947028" duration="7842000" />
+      <workItem from="1489358947028" duration="7899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41706000" />
+    <option name="totallyTimeSpent" value="41763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1129,17 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="133">
-            <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="988">
@@ -1182,9 +1171,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        <state relative-caret-position="399">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="24" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
