@@ -27,6 +27,7 @@ public class DoublyLinkedList {
             Node newNode = new Node(input);
             //새로 생성한 노드의 다음노드레퍼런스로 head저장
             newNode.nextNode = head;
+            //null처리 prev노드 값 셋
             if(head!=null) {
                 head.prevNode = newNode;
             }
@@ -46,6 +47,7 @@ public class DoublyLinkedList {
                 Node newNode = new Node(input);
                 //마지막 노드의 다음노드로 새로 생성한 노드를 참조하도록
                 tail.nextNode = newNode;
+                //방금 추가한 마지막 노드의 이전노드레퍼런스값 셋
                 newNode.prevNode = tail;
                 //tail 필드 갱신
                 tail = newNode;
@@ -64,9 +66,11 @@ public class DoublyLinkedList {
                 Node temp2 = temp1.nextNode;
                 temp1.nextNode = newNode;
                 newNode.nextNode = temp2;
+                //null처리 및 temp2 prev노드 셋
                 if(temp2!=null){
                     temp2.prevNode = newNode;
                 }
+                //새로추가된 노드의 prev노드 셋
                 newNode.prevNode = temp1;
                 size++;
                 if(newNode.nextNode==null){
@@ -75,7 +79,7 @@ public class DoublyLinkedList {
             }
 
         }
-        //해당 인덱스의 노드 객체를 리턴하기위한
+        //해당 인덱스의 노드 객체를 리턴하기위한 *추가 -> index가 head에서 가까운지 tail에서 가까운지 비교하여 탐색
         private Node targetNode(int index){
             Node target;
             if(size()/2<index) {
@@ -102,6 +106,7 @@ public class DoublyLinkedList {
             Object returnData = temp.data;
             //첫번째노드 제거
             temp = null;
+            //레퍼런스값 제거
             if(head!=null){
                 head.prevNode = null;
             }
@@ -120,6 +125,7 @@ public class DoublyLinkedList {
             Node removed = temp.nextNode;
             //타겟이 제거되면 임시노드가 바라볼 노드는 제거될노드의 다음노드
             temp.nextNode = temp.nextNode.nextNode;
+            //가운데 노드가 빠지면서 이전노드레퍼런스 연결
             temp.nextNode.prevNode = temp;
 
             Object returnData = removed.data;
