@@ -8,8 +8,8 @@ public class StackList {
         private Object data;
         private Node nextNode;
 
-        public Node(Object data){
-            this.data = data;
+        public Node(Object input){
+            this.data = input;
             this.nextNode = null;
         }
     }
@@ -24,14 +24,15 @@ public class StackList {
 
     public void push(Object object){
         Node node = new Node(object);
-        node.nextNode = topIndex;
+        topIndex.nextNode = node;
         topIndex = node;
     }
 
     public Object pop(){
-        Node temp = topIndex;
+        Object temp = topIndex.data;
+        //topIndex.nextNode 필드는 push단계중에 이전노드의 nextnode 레퍼런스를 참조하고 있음을 인식해야함.
         topIndex = topIndex.nextNode;
-        return temp.data;
+        return temp;
 
     }
 
@@ -39,7 +40,7 @@ public class StackList {
         if(isEmpty()){
             throw new ArrayIndexOutOfBoundsException();
         }
-        return topIndex;
+        return topIndex.data;
     }
 
 }
