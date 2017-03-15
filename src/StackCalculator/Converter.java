@@ -25,7 +25,6 @@ public class Converter {
             //값이 숫자일 경우 그냥 리스트에 추가
             if(stLevel(before[i])==-1&&!before[i].equals(")")){
                 converted.add(before[i]);
-                System.out.println("리스트추가 : "+before[i]);
 
             //연산자일 경우
             }else{
