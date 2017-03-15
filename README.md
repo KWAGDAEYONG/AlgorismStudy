@@ -7,3 +7,5 @@
 3.arrayList
 
 4.LinkedList
+
+5.stack
