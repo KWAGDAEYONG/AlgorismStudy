@@ -24,13 +24,16 @@ public class StackList {
 
     public void push(Object object){
         Node node = new Node(object);
-        topIndex.nextNode = node;
+        //이 시점에서, 마지막 노드의 next노드는 직전 노드를 바라보게 된다.
+        node.nextNode = topIndex;
         topIndex = node;
     }
 
     public Object pop(){
+        if(isEmpty()){
+            System.out.println("스택이 없습니다.");
+        }
         Object temp = topIndex.data;
-        //topIndex.nextNode 필드는 push단계중에 이전노드의 nextnode 레퍼런스를 참조하고 있음을 인식해야함.
         topIndex = topIndex.nextNode;
         return temp;
 

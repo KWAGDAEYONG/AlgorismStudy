@@ -41,7 +41,9 @@ public class CircularQueue {
         }
         front++;
         front = front%maxSize;
-        return queueArray[front];
+        Object temp = queueArray[front];
+        queueArray[front] = null;
+        return temp;
     }
 
     public Object peek(){
