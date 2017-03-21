@@ -55,6 +55,7 @@ public class DoublyLinkedList {
                 size++;
             }
         }
+
         public void add(int index, Object input){
             if(index==0){
                 addFirst(input);
@@ -77,7 +78,6 @@ public class DoublyLinkedList {
                     tail = newNode;
                 }
             }
-
         }
         //해당 인덱스의 노드 객체를 리턴하기위한 *추가 -> index가 head에서 가까운지 tail에서 가까운지 비교하여 탐색
         private Node targetNode(int index){
