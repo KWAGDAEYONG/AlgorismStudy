@@ -148,20 +148,16 @@ public class BinarySearchTree {
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
 
-        tree.addNode(50, "Boss");
-        tree.addNode(25, "Vice Pres");
-        tree.addNode(15, "Office Manager");
-        tree.addNode(30, "Secretary");
-        tree.addNode(75, "Sales Manager");
-        tree.addNode(85, "Salesman 1");
+        tree.addNode(50, "음식");
+        tree.addNode(25, "육류");
+        tree.addNode(15, "돼지고기");
+        tree.addNode(30, "소고기");
+        tree.addNode(75, "야채류");
+        tree.addNode(85, "토마토");
 
         tree.preinOrderTraverseTree(tree.root);
 
         System.out.println("search");
         System.out.println(tree.findNode(15));
-
-
-
-
     }
 }

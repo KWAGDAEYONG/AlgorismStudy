@@ -1,14 +1,14 @@
 /**
  * Created by user on 2017-03-14.
  */
-public class StackList {
+public class StackList<T> {
     private Node topIndex;
 
     public class Node{
-        private Object data;
+        private T data;
         private Node nextNode;
 
-        public Node(Object input){
+        public Node(T input){
             this.data = input;
             this.nextNode = null;
         }
@@ -22,24 +22,24 @@ public class StackList {
         return topIndex==null;
     }
 
-    public void push(Object object){
+    public void push(T object){
         Node node = new Node(object);
         //이 시점에서, 마지막 노드의 next노드는 직전 노드를 바라보게 된다.
         node.nextNode = topIndex;
         topIndex = node;
     }
 
-    public Object pop(){
+    public T pop(){
         if(isEmpty()){
             System.out.println("스택이 없습니다.");
         }
-        Object temp = topIndex.data;
+        T temp = topIndex.data;
         topIndex = topIndex.nextNode;
         return temp;
 
     }
 
-    public Object peek(){
+    public T peek(){
         if(isEmpty()){
             throw new ArrayIndexOutOfBoundsException();
         }
