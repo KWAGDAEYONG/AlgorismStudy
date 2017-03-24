@@ -1,12 +1,12 @@
 # AlgorismStudy
 
-1.BinarySearch / LenearSearch
+1.search.BinarySearch / search.LenearSearch
 
 2.recursive
 
 3.arrayList
 
-4.LinkedList
+4.linkedList.LinkedList
 
 5.Stack
 
