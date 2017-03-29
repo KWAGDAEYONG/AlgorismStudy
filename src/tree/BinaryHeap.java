@@ -9,7 +9,9 @@ public class BinaryHeap {
     private int maxSize;
 
     public BinaryHeap(int arraySize) {
+
         data = new int[arraySize];
+
     }
 
     public boolean isEmpty() {

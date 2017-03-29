@@ -21,5 +21,4 @@ public class InsertSort {
             System.out.println(ar[i]);
         }
     }
-
 }
