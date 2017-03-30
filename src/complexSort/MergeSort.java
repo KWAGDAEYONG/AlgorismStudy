@@ -15,7 +15,6 @@ public class MergeSort {
     public static void mergeSort(int[] arr, int left, int right) {
         int middle;
         if (right > left) {
-            System.out.println("left는"+left+", right는"+right);
             middle = (right + left) / 2;
             mergeSort(arr, left, middle);
             mergeSort(arr, middle + 1, right);
@@ -58,6 +57,4 @@ public class MergeSort {
         }
         System.out.println("============");
     }
-
-
 }
