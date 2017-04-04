@@ -11,7 +11,7 @@ public class InterpolSearch {
 
         while(first<=last){
             mid = (int)((double)(target-ar[first]) / (ar[last] - ar[first]) * (last-first))+first;//(first+last)/2;
-            
+
             if(ar[mid]==target) {
                 return mid;
             }
